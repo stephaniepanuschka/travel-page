@@ -18,7 +18,7 @@ body{
   display: block;
 }
 
-.grid-2-column{
+.grid-2-columns{
   grid-template-columns: 1fr 1fr;
 }
 
@@ -30,8 +30,13 @@ body{
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.text-center{
+.text-center {
   text-align: center;
+}
+
+.embed{
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 .card{
@@ -41,6 +46,14 @@ body{
 
 .card-body{
   padding: 30px;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.card-header.grip{
+  grid-gap: 0;
 }
 
 .card-footer{
@@ -228,5 +241,13 @@ footer a {
 
   section{
     padding: 30px;
+  }
+
+  .card-header img{
+    display: none;
+  }
+
+  .embed{
+    aspect-ratio: 16 / 9;
   }
 }
