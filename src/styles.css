@@ -18,6 +18,10 @@ body{
   display: block;
 }
 
+.instagram-embeds{
+  margin: 30px;
+}
+
 .grid-2-columns{
   grid-template-columns: 1fr 1fr;
 }
@@ -250,4 +254,5 @@ footer a {
   .embed{
     aspect-ratio: 16 / 9;
   }
+
 }
